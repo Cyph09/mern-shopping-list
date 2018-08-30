@@ -21,7 +21,7 @@ router.post("/", (req, res) => {
     name: req.body.name
   });
 
-  newItem.save().then(item => item.json(item));
+  newItem.save().then(item => res.json(item));
 });
 
 // @route DELETE api/items/:id
