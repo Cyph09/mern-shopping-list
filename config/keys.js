@@ -1,4 +1,4 @@
 module.exports = {
   mongoURI:
-    "mongodb://<username>:<password>@ds121182.mlab.com:21182/shopping_mern"
+    "mongodb://<username>:<pass>@ds121182.mlab.com:21182/shopping_mern"
 };
